@@ -1,0 +1,20 @@
+# Build artifacts
+build/
+vcsrelink
+*.o
+*.obj
+*.exe
+
+# Generated / debug output
+*.ppm
+*.bin.tmp
+
+# ROM images are not part of the repository (supply your own legally obtained ROM)
+Rom/
+*.bin
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+*~
